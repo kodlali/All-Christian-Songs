@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">All Christian Songs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="notification">Music player Started</string>
+    <!-- settings xml -->
+    <string name="pref_visual_settings">Language Selection</string>
+    <string name="language">Language</string>
+    <string name="settings">Settings</string>
+    
+    <string name="error_msg">Your Download Count limit Per Day is over.... Please Try Again Later</string>
+    <string name="error_parallel_msg">Currently One Song is Downloading.... Please Try Again After Completed this Song.</string>
+    <string name="download_msg"> Download is started..</string>
+    
+    <string-array name="array">
+        <item >Play</item>
+        <item >Add To Play List</item>
+        <item >Add All To Play List</item>
+       <!--  <item >Download</item>    -->
+ </string-array>
+
+    <string-array name="languages_array">
+        <item>Telugu</item>
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Malayalam</item>
+        <item>Gujarathi</item>
+        <item>Kannada</item>
+        <item>Tamil</item>
+    </string-array>
+    <string-array name="languages_arrayvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="aboutapp">	    The intention behind to prepare this application is to reach all Christians by songs and by listening this they will have to grow in spirituality.\n
+Here we provide at first version is.\n
+1) songs from different languages (Telugu,Hindi,English,Tamil,Malayan,Gujarati,Kannada, etc.).\n
+2) different ministry songs and different singer songs.\n
+3) Like this we are going to enlarge this application with new languages and more data(all most all songs in their language).\n
+4) First version we  launched with small data we know that. we are currently working to collect the data from different users and sites.\n
+5) If you have any interest to help us, we are welcoming you.And one more thing is this application is going to add more features or data mostly based on 
+user reviews and suggestions.\n</string>
+
+</resources>

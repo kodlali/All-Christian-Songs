@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_height="0dip"
+        android:layout_weight="0.2"
+        android:id="@+id/adlayout1"
+        android:gravity="top"
+        android:layout_gravity="top"
+        android:layout_width="fill_parent"></LinearLayout>
+      
+    
+     <LinearLayout android:gravity="center"
+        android:layout_height="0dip"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent">
+          <TextView android:text="Click on Download Button"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#013ADF"
+            android:layout_height="wrap_content"
+            android:id="@+id/errormsg"/>
+          <ImageView 
+             android:paddingTop="15dp"
+             android:src="@drawable/button01"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/downloadbtn"/>
+      
+       
+         
+     </LinearLayout>
+      <LinearLayout 
+        android:layout_height="0dip"
+        android:id="@+id/adlayout22"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:layout_weight="0.2"
+        android:layout_width="fill_parent"></LinearLayout>
+
+</LinearLayout>

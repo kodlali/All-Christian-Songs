@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="white">#ffffffff</color>
+        <color name="black">#ff000000</color>
+        <color name="opaque_red">#f00</color>
+        <color name="translucent_red">#80ff0000</color>
+        <drawable name="red">#7f00</drawable>
+	    <drawable name="blue">#770000ff</drawable>
+	    <drawable name="green">#7700ff00</drawable>
+		<drawable name="yellow">#77ffff00</drawable>
+		<color name="selectorclr">#FF8000</color>
+	
+	
+	   <color name="solid_red">#f00</color>
+	    <color name="solid_blue">#0000ff</color>
+	    <color name="solid_green">#f0f0</color>
+	    <color name="solid_yellow">#ffffff00</color>
+	    
+	    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    
+	    
+	<color name="grid_background">#FF000000</color>
+	<color name="cell_empty">#FF993311</color>
+	<color name="cell_filled">#FFA99033</color>
+	<color name="cell_empty_hover">#ff00ff00</color>
+	<color name="cell_filled_hover">#ffaadddd</color>
+	<color name="red">#ffff0000</color>
+	<color name="green">#ff00ff00</color>
+	<color name="blue">#ff0000ff</color>
+	<color name="drop_target_color1">#FF993311</color>
+	<color name="drop_target_color2">#FFA99033</color>
+	<color name="drop_target_enabled">#FF009933</color>
+	<color name="drop_target_disabled">#FFdddddd</color>
+	<color name="transpernt">#000000</color>
+	<drawable name="transpernt">#00000000</drawable>
+
+	<color name="solid_white">#cdc</color>
+	<color name="na_cooler">#AFF984</color>
+	<color name="na_blueee">#0000FF</color>
+	<color name="appwidget_text">#ffffffff</color>
+	<color name="song_name_color">#BDE0F9</color>
+	<color name="myColor">#ffffff</color>
+	<color name="orange">#FF8040</color>
+	
+	
+
+	<color name="solid_black">#181818</color>
+	<color name="solid_orange">#D78F00</color>
+	<color name="solid_grey">#848284</color>
+	<color name="lightpink">#FFB6C1</color> 
+	<color name="DarkOliveGreen">#556B2F</color>
+	<color name="DarkCyan">#008B8B</color> 	
+	
+	<color name="tabMedium">#2B2B2B</color>
+	<color name="tabDark">#000000</color>
+	<color name="tabTransparent">#10ffffff</color>
+
+	<color name="common_main_background">#232323</color>
+	<color name="printer_info_label">#676767</color>
+	<color name="printer_info_content">#333333</color>
+	<color name="theme_primary">#00aeef</color>
+	<color name="theme_primarydark">#106f93</color>
+	<color name="accent">#00aeef</color>
+	<color name="text_color">#7f7f7f</color>
+	<color name="background_header_text">#e8e8ee</color>
+        
+</resources>
+
+
+

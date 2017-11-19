@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp" >
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="0dp"
+		android:layout_weight="0.5"
+		android:paddingBottom="1dp"
+		android:paddingTop="4dp">
+		<ImageView android:id="@+id/image" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:src="@drawable/music_icon_not" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="25dp" android:text="Downloading..."
+			android:id="@+id/title" android:textSize="14dp" android:textStyle="bold"
+			android:textColor="#2E64FE" android:paddingLeft="4dp" />
+		
+		<ProgressBar android:id="@+id/progress"
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingLeft="5dp" android:progressDrawable="@drawable/green_progress" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="0.5"
+	    android:gravity="bottom"
+	    android:layout_gravity="bottom"
+	    android:orientation="horizontal" >
+
+		<TextView android:id="@+id/text" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:textColor="#2E64FE"
+			android:paddingTop="5dp" android:ellipsize="end" android:maxLines="1" />
+	</LinearLayout>
+</LinearLayout>

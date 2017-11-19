@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videoTab"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="8.5">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:layoutAnimation="@anim/layout_bottom_to_top_slide"
+            android:scrollbars="none"></ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+        android:visibility="visible"></LinearLayout>
+</LinearLayout>
